@@ -141,9 +141,17 @@ and transactions.market_code="Mark001";`
 Data Analysis Using Power BI
 ============================
 
+1.when your setup is complete then there will be two option either directly load or transform when we load the we reach to the area where we draw our visualization and modeling (is the process by which you connect our tables so that there will be relation netwwen all of them and this can be done using our forign key whcih help to connect different tables which help to reterive data and information from different tables power bi is smart enough to detect relationship automaticaly of not then you can define by yourself by drag and drop the particular variabe which connect two tables )
+
+2 . Then you can proceed for data tranformation which is necessary steps to build a fully customized and interactive dashboard that is easy to understand because data is store by humans so there will be cahnce of data duplication and some anomalies like some time sales amoutn should be shown 0 or may be the person who is responsible for data entry become crative and shows some creativity then it ambigious for our visualization so we have to clean data and some time we have to create some more column according to the needs 
+
+3.click close and apply because you can do as many as we can so after ETL or main work is to plot some visualization according to stakholders and company needs after that when we find something which create problems with our visualization or there will be some infomation we don't have to answer question then we further proceed for data transformation and may be there will be issus whcih must be care by data enginners then we inform them that there will be issues in database if they correct so fine if not so we go with the best of our idea and prepare a dashboard and present it to stakholders CEO CMO etc they give feedback on that dashboard so according to feedback if there is need to manupulate that outcome then we did if there will be positive result then **we chill and have some cup of coffee**
+
 1. Formula to create norm_amount column
 
 `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
+
+
 
 
 
