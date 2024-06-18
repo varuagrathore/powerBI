@@ -29,12 +29,16 @@ This README provides detailed steps to load a database in MySQL and connect it t
 
 sql
 SELECT * FROM your_table_name LIMIT 10;
-Step 2: Connect MySQL Database to Power BI
+
+### **Step 2:** Connect MySQL Database to Power BI
+
 2.1 Install Power BI Desktop
+
 Download and install Power BI Desktop from the official website.
-2.2 Install MySQL ODBC Driver
+
+**-2.2** Install MySQL ODBC Driver
 Download and install the MySQL ODBC driver from the official MySQL website.
-2.3 Configure ODBC Data Source
+**-2.3** Configure ODBC Data Source
 Open the ODBC Data Source Administrator:
 For Windows, search for "ODBC Data Sources" in the start menu and select the 64-bit version.
 Click on the "System DSN" tab.
@@ -48,13 +52,13 @@ User: (your MySQL username)
 Password: (your MySQL password)
 Database: (the name of your database)
 Click "Test" to ensure the connection works, then click "OK" to save.
-2.4 Connect to MySQL Database from Power BI
+**2.4** Connect to MySQL Database from Power BI
 Open Power BI Desktop.
 Click on "Get Data" on the Home ribbon.
 Select "ODBC" from the list of data sources and click "Connect".
 In the "From ODBC" dialog, select the Data Source Name you configured (e.g., MySQL_PowerBI) and click "OK".
 Provide the necessary credentials if prompted and click "Connect".
-2.5 Load Data into Power BI
+**2.5** Load Data into Power BI
 After successfully connecting, the Navigator window will appear.
 Select the tables or views you want to load into Power BI.
 Click "Load" to import the data or "Transform Data" to make adjustments in the Power Query Editor.
