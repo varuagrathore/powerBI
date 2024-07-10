@@ -1,3 +1,9 @@
+**download the pbip file along with Report and semantic_model otherwise an error will occur**
+
+
+
+
+
 CRM Data Analysis Project
 Introduction
 Customer Relationship Management (CRM) data is critical for effective sales and marketing strategies. By capturing and organizing detailed information about customers, prospects, and sales interactions, CRM systems provide invaluable insights into consumer behavior, preferences, and purchasing patterns.
